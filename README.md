@@ -1,9 +1,8 @@
-LAB1
- The name of my website is: "The Magic Garden", cause i love flowers and plants, so i decided to create a website about flowers and plants.(:
-lab1
+terra-bloom-website/
 │
-├── HomePage.html
-├── about.html
-├── services.html
-├── contact.html
-The only challenging thing was giving a name for my changes to commit them and also writing a README:)
+├── index.html          # Home page — intro articles about garden programs
+├── about.html           # About page — mission, story, and figure/caption
+├── services.html        # Services/Projects page — table of programs offered
+├── contact.html         # Contact page — inquiry form
+│
+└── images/              # (optional) local image assets, if not using external URLs
