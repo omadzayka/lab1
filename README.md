@@ -1,3 +1,4 @@
+
 terra-bloom-website/
 │
 ├── index.html          # Home page — intro articles about garden programs
