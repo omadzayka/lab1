@@ -1,15 +1,15 @@
-# Terra Bloom Community Garden Website
+# The Magic Community Garden Website
 
 A 4-page HTML5 website built for a fictional community garden organization, created to demonstrate mastery of semantic HTML structure, navigation, tables, and forms.
 
 ## Theme
 
-The site represents **Terra Bloom Community Garden**, a fictional volunteer-run community garden focused on sustainable growing, environmental education, and bringing neighbors together. The site includes a home page introducing the garden, an about page sharing its story, a services/projects page listing programs offered, and a contact page for inquiries.
+The site represents **The Magic Community Garden**, a fictional volunteer-run community garden focused on sustainable growing, environmental education, and bringing neighbors together. The site includes a home page introducing the garden, an about page sharing its story, a services/projects page listing programs offered, and a contact page for inquiries.
 
 ## File Organization
 
 ```
-terra-bloom-website/
+the magic garden-website/
 │
 ├── index.html          # Home page — intro articles about garden programs
 ├── about.html           # About page — mission, story, and figure/caption
@@ -30,4 +30,4 @@ All four HTML pages live in the root folder so that relative links (e.g. `href="
 
 ## Author
 
-Jordan Hayes — 2026
+OMADILLO NURMATOV - 20206
