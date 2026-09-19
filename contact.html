@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset=" UTF-8">
-        <title>The Magic Community Garden - Contact</title>
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <title>The Magic Community Garden - Contact</title>
+</head>
+<body>
 
-     <header>
-        <h1>The Magic Garden</h1>
-          <nav>
+    <header>
+        <h1>The Magic Community Garden</h1>
+        <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -16,6 +16,62 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-     </header>
-    </body>
+    </header>
+
+    <main>
+        <h2>Get In Touch</h2>
+        <p>Have a question about plot rentals, volunteering, or one of our programs? Fill out the form below and a member of our team will get back to you soon.</p>
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Your Information</legend>
+
+                <p>
+                    <label for="full-name">Full Name:</label><br>
+                    <input type="text" id="full-name" name="full-name" placeholder="Jane Smith" required>
+                </p>
+
+                <p>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+                </p>
+
+                <p>
+                    <label for="visit-date">Preferred Visit Date:</label><br>
+                    <input type="date" id="visit-date" name="visit-date">
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Your Message</legend>
+
+                <p>
+                    <label for="topic">Reason for Contact:</label><br>
+                    <select id="topic" name="topic">
+                        <option value="plot-rental">Plot Rental</option>
+                        <option value="volunteering">Volunteering</option>
+                        <option value="kids-club">Kids' Gardening Club</option>
+                        <option value="donations">Donations</option>
+                        <option value="other">Other</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="6" cols="40" placeholder="Tell us how we can help..."></textarea>
+                </p>
+            </fieldset>
+
+            <p>
+                <input type="submit" value="Send Message">
+                <input type="reset" value="Clear Form">
+            </p>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 The Magic Garden. All rights reserved.</p>
+    </footer>
+
+</body>
 </html>
